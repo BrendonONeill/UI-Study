@@ -1,0 +1,56 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #efefef;
+}
+
+h1 {
+    font-size: 80px;
+    text-align: center;
+}
+
+.nav {
+    background-color: cornflowerblue;
+    height: 10vh;
+    flex-basis: 100%;
+}
+
+.container {
+    display: flex;
+    height: 80vh;
+    border: 10px solid white;
+}
+
+.section1 {
+    background-color: aqua;
+    border-radius: 5px;
+    flex-basis: 49.75%;
+    overflow: hidden;
+}
+
+.draggable {
+    flex-basis: 0.5%;
+    background-color: white;
+    cursor: w-resize;
+    border-radius: 5px;
+}
+
+.draggable:hover {
+    background-color: lime;
+    border-radius: 5px;
+}
+
+.section2 {
+    position: relative;
+    right: 0;
+    background-color: burlywood;
+    flex-basis: 49.75%;
+}
